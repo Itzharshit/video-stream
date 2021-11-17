@@ -56,10 +56,10 @@ async def play(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"
+                    text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
+                    text="❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
@@ -69,7 +69,7 @@ async def play(_, m: Message):
     chat_id = m.chat.id
     if replied:
         if replied.audio or replied.voice:
-            suhu = await replied.reply("📥 **downloading audio...**")
+            suhu = await replied.reply("📥 **𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ✨ 𝐒𝐨𝐧𝐠 🎸 𝐅𝐫𝐨𝐦 🥀 𝐒𝐞𝐫𝐯𝐞𝐫 🌎...**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -112,7 +112,7 @@ async def play(_, m: Message):
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
-                    await suhu.edit("❌ **no results found.**")
+                    await suhu.edit("❌ **𝐒𝐨𝐧𝐠 🥀 𝐍𝐨𝐭 😔 𝐅𝐨𝐮𝐧𝐝.**")
                 else:
                     songname = search[0]
                     url = search[1]
@@ -204,10 +204,10 @@ async def stream(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"
+                    text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee"
                 ),
                 InlineKeyboardButton(
-                    text="🌻𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
+                    text="❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
