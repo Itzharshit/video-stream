@@ -52,39 +52,32 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **allows you to play music and video on groups through the new Telegram's video chats!**
+        f"""✨ **🤖 𝙄 𝘼𝙈 𝘼𝙉 𝘼𝘿𝙑𝘼𝙉𝘾𝙀𝘿 𝘽𝙊𝙏 𝘾𝙍𝙀𝘼𝙏𝙀𝘿 𝙁𝙊𝙍 𝙋𝙇𝘼𝙔𝙄𝙉𝙂 𝙈𝙐𝙎𝙄𝘾 𝙄𝙉 𝙏𝙃𝙀 𝙑𝙊𝙄𝘾𝙀 𝘾𝙃𝘼𝙏𝙎 𝙊𝙁 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝙂𝙍𝙊𝙐𝙋 & 𝘾𝙃𝘼𝙉𝙉𝙀𝙇.
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
-
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+✅  𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 :- @ARMY0071**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❓ 𝘽𝘼𝙎𝙄𝘾 𝙂𝙐𝙄𝘿𝙀", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/Xmartperson"),
+                    InlineKeyboardButton("📚 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎", callback_data="cbcmds"),
+                    InlineKeyboardButton("❤️ 𝘿𝙊𝙉𝘼𝙏𝙀", url=f"https://t.me/ARMY0071"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/Xmarty_support"
+                        "👥 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"
                     ),
                     InlineKeyboardButton(
-                        "📣 ChitChat Group", url=f"https://t.me/Welcomefriendclub"
+                        "📣 𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
                     ),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/S780821/video-stream"
-                    )
-                ],
+                
             ]
         ),
         disable_web_page_preview=True,
@@ -102,15 +95,15 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/Xmarty_Support"),
+                InlineKeyboardButton("✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"),
                 InlineKeyboardButton(
-                    "ChitChat Group", url=f"https://t.me/Welcomefriendclub"
+                    "𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [▁▂▄▅▆▇█ 𝕃𝕖𝕘𝕖𝕟𝕕◇𝕊𝕒𝕝𝕚𝕞 █▇▆▅▄▂▁](https://t.me/Xmartperson)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group video chat** ❤"
+    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [▁▂▄▅▆▇█ @ARMY0071 █▇▆▅▄▂▁](https://t.me/ARMY0071)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group video chat** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
