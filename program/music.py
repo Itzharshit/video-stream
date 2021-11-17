@@ -56,10 +56,10 @@ async def play(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Xmarty_support"
+                    text="✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/Welcomefriendclub"
+                    text="🌻 𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
@@ -204,10 +204,10 @@ async def stream(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/xmarty_support"
+                    text="✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"
                 ),
                 InlineKeyboardButton(
-                    text="🌻ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/welcomefriendclub"
+                    text="🌻𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
