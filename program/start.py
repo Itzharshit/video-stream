@@ -64,10 +64,10 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❰𝘽𝘼𝙎𝙄𝘾 𝙂𝙐𝙄𝘿𝙀❱", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❰𝗕𝗮𝘀𝗶𝗰 𝗚𝘂𝗶𝗱𝗲❱", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("❰𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀❱", callback_data="cbcmds"),
-                    InlineKeyboardButton("❰𝘿𝙊𝙉𝘼𝙏𝙀❱", url=f"https://t.me/ARMY0071"),
+                    InlineKeyboardButton("❰𝗗𝗼𝗻𝗮𝘁𝗲❱", url=f"https://t.me/ARMY0071"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -95,15 +95,17 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"),
+                InlineKeyboardButton("❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee"),
                 InlineKeyboardButton(
-                    "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/ARMY0071"
+                    "❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [▁▂▄▅▆▇█ @ARMY0071 █▇▆▅▄▂▁](https://t.me/ARMY0071)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group video chat** ❤"
+    alive = f"🤖 𝙄 𝘼𝙈 𝘼𝙉 𝘼𝘿𝙑𝘼𝙉𝘾𝙀𝘿 𝘽𝙊𝙏 𝘾𝙍𝙀𝘼𝙏𝙀𝘿 𝙁𝙊𝙍 𝙋𝙇𝘼𝙔𝙄𝙉𝙂 𝙈𝙐𝙎𝙄𝘾 𝙄𝙉 𝙏𝙃𝙀 𝙑𝙊𝙄𝘾𝙀 𝘾𝙃𝘼𝙏𝙎 𝙊𝙁 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝙂𝙍𝙊𝙐𝙋 & 𝘾𝙃𝘼𝙉𝙉𝙀𝙇.
+
+✅  𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 :- @ARMY0071"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
@@ -117,7 +119,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `𝙋𝙤𝙣𝙜!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
@@ -126,7 +128,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 bot status:\n"
-        f"• **uptime:** `{uptime}`\n"
-        f"• **start time:** `{START_TIME_ISO}`"
+        "🤖 𝗕𝗼𝘁 𝘀𝘁𝗮𝘁𝘂𝘀:\n"
+        f"• **𝙐𝙥𝙩𝙞𝙢𝙚:** `{uptime}`\n"
+        f"• **𝙨𝙩𝙖𝙧𝙩 𝙩𝙞𝙢𝙚:** `{START_TIME_ISO}`"
     )
