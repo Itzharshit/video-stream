@@ -60,21 +60,21 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕",
+                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ 𝘽𝘼𝙎𝙄𝘾 𝙂𝙐𝙄𝘿𝙀", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❰𝘽𝘼𝙎𝙄𝘾 𝙂𝙐𝙄𝘿𝙀❱", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ 𝘿𝙊𝙉𝘼𝙏𝙀", url=f"https://t.me/ARMY0071"),
+                    InlineKeyboardButton("❰𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀❱", callback_data="cbcmds"),
+                    InlineKeyboardButton("❰𝘿𝙊𝙉𝘼𝙏𝙀❱", url=f"https://t.me/ARMY0071"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"
+                        "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee"
                     ),
                     InlineKeyboardButton(
-                        "📣 𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
+                        "❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
                     ),
                 ],
                 
@@ -97,7 +97,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/Worldwide_friends_chatting_zonee"),
                 InlineKeyboardButton(
-                    "𝙂𝙍𝙊𝙐𝙋 𝙊𝙒𝙉𝙀𝙍", url=f"https://t.me/ARMY0071"
+                    "❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/ARMY0071"
                 ),
             ]
         ]
