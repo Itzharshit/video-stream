@@ -64,7 +64,7 @@ async def play(_, m: Message):
             ],
          [
                 InlineKeyboardButton(
-                    text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee")]
+                    text="❰𝗣𝘂𝗯𝗴 𝗨𝘀𝗲𝗿 𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲❱", url=f"https://t.me/FriendlyHacks")]
         ]
     )
 
@@ -215,7 +215,7 @@ async def stream(_, m: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee")]
+                    text="❰𝗣𝘂𝗯𝗴 𝗨𝘀𝗲𝗿 𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲❱", url=f"https://t.me/FriendlyHacks")]
         ]
     )
 
