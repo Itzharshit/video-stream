@@ -60,8 +60,11 @@ async def play(_, m: Message):
                 ),
                 InlineKeyboardButton(
                     text="❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
-                ),
-            ]
+                )
+            ],
+         [
+                InlineKeyboardButton(
+                    text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/Worldwide_friends_chatting_zonee")]
         ]
     )
 
