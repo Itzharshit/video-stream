@@ -125,7 +125,7 @@ async def vplay(client, m: Message):
         else:
             if len(m.command) < 2:
                 await m.reply(
-                    "» reply to an **video file** or **give something to search.**"
+                    "𝗥𝗲𝗽𝗹𝘆 𝗧𝗼 𝗔𝗻 𝗩𝗶𝗱𝗲𝗼 𝗙𝗶𝗹𝗲 𝗢𝗿 𝗚𝗶𝘃𝗲 𝗦𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗧𝗼 𝗦𝗲𝗮𝗿𝗰𝗵."
                 )
             else:
                 loser = await m.reply("🔎 **searching...**")
@@ -172,7 +172,7 @@ async def vplay(client, m: Message):
     else:
         if len(m.command) < 2:
             await m.reply(
-                "» reply to an **video file** or **give something to search.**"
+                "𝗥𝗲𝗽𝗹𝘆 𝗧𝗼 𝗔𝗻 𝗩𝗶𝗱𝗲𝗼 𝗙𝗶𝗹𝗲 𝗢𝗿 𝗚𝗶𝘃𝗲 𝗦𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗧𝗼 𝗦𝗲𝗮𝗿𝗰𝗵."
             )
         else:
             loser = await m.reply("🔎 **searching...**")
