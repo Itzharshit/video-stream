@@ -68,6 +68,12 @@ async def vplay(client, m: Message):
                     text="❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
                 ),
             ]
+            [
+                    InlineKeyboardButton(
+                        "❰𝗣𝘂𝗯𝗴 𝗨𝘀𝗲𝗿 𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲❱",
+                        url=f"https://t.me/FriendlyHacks",
+                    )
+            ],
         ]
     )
 
@@ -228,6 +234,12 @@ async def vstream(client, m: Message):
                     text="❰𝗢𝘄𝗻𝗲𝗿❱", url=f"https://t.me/ARMY0071"
                 ),
             ]
+             [
+                    InlineKeyboardButton(
+                        "❰𝗣𝘂𝗯𝗴 𝗨𝘀𝗲𝗿 𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲❱",
+                        url=f"https://t.me/FriendlyHacks",
+                    )
+             ],
         ]
     )
 
