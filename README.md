@@ -1,5 +1,5 @@
-<p align="center"><a href="https://t.me/XMARTY_VC_PLAYER_BOT">
-    <img src="https://telegra.ph/file/51452e860abb8e7ad6890.jpg"></a></p>
+<p align="center"><a href="https://t.me/armymusic121_bot">
+    <img src="https://telegra.ph/file/45f19c3030ba4681c40b7.jpg"></a></p>
 <p align="center">
     <br><b>Video Stream is a telegram bot project that's allow you to play video on telegram group video chat</b><br>
 </p>
@@ -72,6 +72,3 @@ python3 main.py # run the bot.
 # Credits 💖
  [``py-tgcalls``](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
-
-### Support & Updates 🎑
-<a href="https://t.me/xmarty_support"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
